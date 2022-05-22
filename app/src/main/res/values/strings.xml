@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="ten_sv">Tên sinh viên: %s</string>
+    <string name="ma_sv">Mã sinh viên: %s</string>
+    <string name="lop">Lớp: %s</string>
+    <string name="tensach">Tên sách: %s</string>
+    <string name="tg">Tác giả: %s</string>
+    <string name="ngaymuon">Ngày mượn: %s</string>
+    <string name="ngaytra">Ngày trả: %s</string>
+    <string name="namxb">Năm xuất bản: %s</string>
+    <string name="nhaxb">Nhà xuất bản: %s</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sach"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/ic_sach"
+            android:layout_width="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/book" />
+
+        <TextView
+            android:id="@+id/ten_sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/ic_sach"
+            android:text="@string/ten_sv"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ma_sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ten_sv"
+            android:layout_alignLeft="@id/ten_sv"
+            android:layout_marginRight="15dp"
+            android:text="@string/ma_sv" />
+
+        <TextView
+            android:id="@+id/lop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ma_sv"
+            android:layout_alignLeft="@id/ma_sv"
+            android:layout_marginRight="15dp"
+            android:text="@string/ma_sv" />
+
+        <TextView
+            android:id="@+id/ten_sach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignLeft="@id/ma_sv"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/lop"
+            android:text="Tên sách"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ten_tac_gia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ten_sach"
+            android:layout_alignLeft="@id/ten_sach"
+            android:layout_marginRight="15dp"
+            android:text="Tác giả" />
+
+        <TextView
+            android:id="@+id/nha_xb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ten_tac_gia"
+            android:layout_alignLeft="@id/ten_sach"
+            android:layout_gravity="center"
+            android:text="Tên sách" />
+
+        <TextView
+            android:id="@+id/nam_xb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nha_xb"
+            android:layout_alignLeft="@id/nha_xb"
+            android:layout_marginRight="15dp"
+            android:text="Tác giả" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

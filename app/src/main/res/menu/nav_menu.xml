@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_giao_trinh"
+        android:icon="@drawable/ic_book"
+        android:title="Sách giáo trình" />
+    <item
+        android:id="@+id/nav_tai_lieu"
+        android:icon="@drawable/ic_book"
+        android:title="Tài liệu tham khảo" />
+    <item
+        android:id="@+id/nav_admin"
+        android:icon="@drawable/ic_menu"
+        android:title="Trang quản lí" />
+</menu>
